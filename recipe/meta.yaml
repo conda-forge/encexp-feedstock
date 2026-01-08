@@ -1,5 +1,5 @@
 {% set name = "encexp" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/encexp-{{ version }}.tar.gz
-  sha256: 31705a86700d92b3aa67807e63fb0fbced2bc0b9e7ac4af7b5b675dce8dcb06b
+  sha256: 9e5cbb0ac6a17a1222c05887eb4a5ff786d914f8800f8b3a6ffded5696088efd
 
 build:
   noarch: python
